@@ -24,7 +24,6 @@ load_dotenv(os.path.join(BASE_DIR, "custom_price_calculator/.env"))
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-wx7!@w_ww6(41fcebfj)+ti^igmykw!^_k5@9y9ha01qf=3pxp'
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
